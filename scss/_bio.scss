@@ -1,0 +1,24 @@
+.bio {
+    background: linear-gradient(to bottom right, #ffffff 16%, #feb236 266%);
+    padding-bottom: 3rem;
+    
+
+    &__main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 100%;
+        width: 80%;
+        
+        &__1 {
+            background: url('../img/isil_3.png') no-repeat center;
+            margin-right: 3rem;
+        }
+
+        &__2 {
+            div {
+                padding-left: 3rem;
+                text-align: center;
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    background: linear-gradient(to bottom right, #ffffff 35%, #6b5b95 266%);
+    border-bottom: 1px solid $main-color;
+ 
+    &__logo {
+        width: 3.5rem;
+        height: 3.5rem;
+        font-size: 2rem;
+        font-weight: 600;
+        color: $main-color;
+        padding-left: 1rem;
+    }
+
+    &__items {
+        display: flex;
+        padding-right: 1rem;
+
+        li {
+            padding: 1rem 1.5rem;
+
+            a {
+                text-decoration: none;
+                color: #333;
+                text-transform: uppercase;
+                border-bottom: .2rem transparent solid;
+                padding-bottom: .5rem;
+                transform: border-color .5s;
+                font-size: 1.1rem;
+
+                &:hover {
+                    border-color: $light-color;
+                }
+
+                &.active {
+                    border-color: #9900ff;
+                }
+            }
+        }
+        
+    }
+}

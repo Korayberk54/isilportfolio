@@ -1,0 +1,29 @@
+#main-footer {
+    height: 5rem;
+    background: $main-color;
+    color: #fff;
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+
+        .social .fab {
+            margin-right: 1rem;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            text-align: center;
+            padding: .6rem;
+            transition: all .5s;
+
+            &:hover {
+                background: $dark-color;
+            }
+        }
+
+        .social a {
+            color: #fff !important;
+        }
+    }
+}
